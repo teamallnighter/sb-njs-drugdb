@@ -1,8 +1,12 @@
-# Building a Multi-User Blogging App with Nuxt and Supabase
+# Multi User Supabase NUXT blog
 
-This project goes along with the blog post featured on CSS Tricks.
+## Features
 
-### Running the project
+1. NUXTJS
+2. NETLIFY
+3. MULTIPLE USERS W/ SUPABASE AUTH
+
+### Init The Project
 
 To get started with this project, follow these steps.
 
@@ -38,7 +42,7 @@ create policy "Posts are public." on posts for
 3. Clone the project
 
 ```sh
-git clone git@github.com:dabit3/nuxt-supabase-full-multi-user-blog.git
+git clone https://github.com/teamallnighter/sb-njs-drugdb.git
 ```
 
 4. Change into the new directory and install the dependencies
@@ -63,8 +67,6 @@ export default (_, inject) => {
   inject('supabase', supabase)
 }
 ```
-
-![API Configuration](api-config.jpeg)
 
 6. Run the server
 
